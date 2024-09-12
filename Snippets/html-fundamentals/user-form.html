@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form onsubmit="submitForm(event)" method="post">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" />
+        <br/><br/>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" />
+        <br/><br/>
+        <input type="submit" value="Submit" />
+        <input type="reset" value="Reset">
+    </form>
+
+    <script>
+        function submitForm(event)
+        {
+            event.preventDefault();
+            
+            // Get Form Values
+            var name = document.getElementById("name").value;
+            var email = document.getElementById("email").value;
+        
+            alert('Form Submitted. Your name is ' + name + " and your email is " + email);
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Registration Form</h2>
+
+    <form action="" method="post">
+
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username" required/>
+
+        <br/><br/>
+
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" minlength="6" maxlength="12" required />
+
+        <br/><br/>
+
+        <label for="age">Age</label>
+        <input type="number" name="age" id="age" min="18" max="35" step="2" />
+
+        <label for="Phone">Phone Number</label>
+        <input type="tel" name="Phone" id="phone" pattern="\d{3}-\d{3}-\d{4}" title="Enter Phone Number in the particular pattern like 123-456-7890." />
+
+        <br/><br/>
+
+        <label for="gender">Gender</label>
+        <input type="radio" name="gender" id="male" value="Male" />Male
+        <input type="radio" name="gender" id="female" value="Female" />Female
+
+        <br/><br/>
+
+        <label for="dob">Date of Birth</label>
+        <input type="date" name="dob" id="dob" min="2010-01-01" />
+
+        <br/><br/>
+
+        <label for="website">Website</label>
+        <input type="url" name="website" id="website" />
+
+        <label for="country">Country</label>
+        <select name="country" id="country">
+            <option value="usa">USA</option>
+            <option value="india">India</option>
+            <option value="canada">Canada</option>
+        </select>
+
+        <br/><br/>
+
+        <label for="newsletter">Subscribe to News Letter</label>
+        <input type="checkbox" name="newsletter" id="newsletter" value="yes">I accept it.
+
+        <br/><br/>
+
+        <input type="submit" value="Register">
+
+    </form>
+</body>
+</html>
