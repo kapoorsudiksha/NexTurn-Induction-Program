@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Universal Selectors */
+        * {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        /* Element Type Selector */
+        h2, h3 {
+            color:navy;
+        }
+        p {
+            line-height: 1.5em;
+            font-weight: bolder;
+        }
+        /* Id Selector */
+        #pnote {
+            color: red;
+            text-decoration: underline;
+            font-style: italic;
+        }
+        /* Class Selector */
+        .pwarning {
+            color: yellowgreen;
+            text-decoration: underline;
+            font-style: italic;
+        }
+        /* Child Selector */
+        ul > li {
+            list-style-type: none;
+        }
+        ul > li ol {
+            list-style-type: none;
+        }
+    </style>
+</head>
+<body>
+    <h2>Learning Biz</h2>
+
+    <p>I hope you you will learn a lot more new concepts here. I hope you you will learn a lot more new concepts here. I hope you you will learn a lot more new concepts here. I hope you you will learn a lot more new concepts here. I hope you you will learn a lot more new concepts here. I hope you you will learn a lot more new concepts here. I hope you you will learn a lot more new concepts here.</p>
+    <p>I am here to assist you for the entire training program. I am here to assist you for the entire training program. I am here to assist you for the entire training program. I am here to assist you for the entire training program. I am here to assist you for the entire training program. I am here to assist you for the entire training program. I am here to assist you for the entire training program. </p>
+    
+    <p id="pnote">Note: This program is only for NexTurn people.</p>
+
+    <p class="pwarning">Note: This program is only for NexTurn people.</p>
+
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a>
+            <ol>
+                <li><a href="#">Design</a></li>
+                <li><a href="#">Development</a></li>
+            </ol>
+        </li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+
+    <h3>HTML Topics</h3>
+    <ul>
+        <li>Heading Tag</li>
+        <li>Formatting Tag</li>
+        <li>Link Tag</li>
+        <li>Form Tag</li>
+    </ul>
+
+    <h3>Additional HTML Topics</h3>
+    <ul>
+        <li>Storages</li>
+        <li>Local Storage and Session Storage</li>
+        <li>Cookies</li>
+    </ul>
+
+</body>
+</html>

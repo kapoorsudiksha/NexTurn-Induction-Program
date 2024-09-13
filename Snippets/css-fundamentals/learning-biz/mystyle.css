@@ -1,0 +1,60 @@
+
+/* General Styling */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 10;
+    padding: 0;
+}
+
+/* Header Styling */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:active, nav ul li a:hover {
+    color: #FFD600
+}
+
+/* Section Styling */
+section {
+    padding:20px;
+    background-color: #f4f4f4;
+    text-align: center;
+    min-height: 300px;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+p {
+    line-height: 1.7em;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding:10px 0;
+    position:relative;
+}
